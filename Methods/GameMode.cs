@@ -2,204 +2,212 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-// Token: 0x02000077 RID: 119
-[Token(Token = "0x2000077")]
+// Token: 0x020000C6 RID: 198
+[Token(Token = "0x20000C6")]
 public abstract class GameMode : MonoBehaviour
 {
-	// Token: 0x060001D3 RID: 467 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D3")]
-	[Address(RVA = "0x31E720", Offset = "0x31D120", VA = "0x18031E720", Slot = "4")]
+	// Token: 0x06002CA8 RID: 11432 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CA8")]
+	[Address(RVA = "0x105C880", Offset = "0x105B680", VA = "0x18105C880", Slot = "4")]
 	public virtual void Init()
 	{
 	}
 
-	// Token: 0x060001D4 RID: 468 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D4")]
-	[Address(RVA = "0x31EF20", Offset = "0x31D920", VA = "0x18031EF20")]
-	private void UpdateTimer()
+	// Token: 0x06002CA9 RID: 11433 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CA9")]
+	[Address(RVA = "0x105CF40", Offset = "0x105BD40", VA = "0x18105CF40")]
+	private void ႣႥႥႠႡႧႡႢ\u109B\u109CႤ()
 	{
 	}
 
-	// Token: 0x060001D5 RID: 469 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D5")]
-	[Address(RVA = "0x31F130", Offset = "0x31DB30", VA = "0x18031F130")]
+	// Token: 0x06002CAA RID: 11434 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CAA")]
+	[Address(RVA = "0x105D330", Offset = "0x105C130", VA = "0x18105D330")]
 	private void Update()
 	{
 	}
 
-	// Token: 0x060001D6 RID: 470 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D6")]
-	[Address(RVA = "0x31E700", Offset = "0x31D100", VA = "0x18031E700")]
-	public void HandleStateChange(GameMode.ModeState state)
+	// Token: 0x06002CAB RID: 11435 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CAB")]
+	[Address(RVA = "0x105C850", Offset = "0x105B650", VA = "0x18105C850")]
+	public void HandleStateChange(GameMode.Ⴄ\u109AႤ\u109E\u109EႣႤ\u109AႤႦႤ \u109DႢႡႢ\u109D\u109DႨ\u109AႤ\u109A\u109E)
 	{
 	}
 
-	// Token: 0x060001D7 RID: 471 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D7")]
-	[Address(RVA = "0x31EA00", Offset = "0x31D400", VA = "0x18031EA00")]
-	private void StartRound()
+	// Token: 0x06002CAC RID: 11436 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CAC")]
+	[Address(RVA = "0x105CB90", Offset = "0x105B990", VA = "0x18105CB90")]
+	private void ႠႠ႙႙\u109D\u109FႡ\u109FႤ\u109F\u109A()
 	{
 	}
 
-	// Token: 0x060001D8 RID: 472 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D8")]
-	[Address(RVA = "0x1FB790", Offset = "0x1FA190", VA = "0x1801FB790", Slot = "5")]
+	// Token: 0x06002CAD RID: 11437 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CAD")]
+	[Address(RVA = "0x2257B0", Offset = "0x2245B0", VA = "0x1802257B0", Slot = "5")]
 	public virtual void OnFreezeOverAlert()
 	{
 	}
 
-	// Token: 0x060001D9 RID: 473 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001D9")]
-	[Address(RVA = "0x1FB790", Offset = "0x1FA190", VA = "0x1801FB790", Slot = "6")]
-	public virtual void OnPlayerGameModeLoaded(ulong pId)
+	// Token: 0x06002CAE RID: 11438 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CAE")]
+	[Address(RVA = "0x2257B0", Offset = "0x2245B0", VA = "0x1802257B0", Slot = "6")]
+	public virtual void OnPlayerGameModeLoaded(ulong \u109DႤႧ\u109CႠ\u109FႢႧႡႤ\u109D)
 	{
 	}
 
-	// Token: 0x060001DA RID: 474 RVA: 0x00002280 File Offset: 0x00000480
-	[Token(Token = "0x60001DA")]
-	[Address(RVA = "0x31E680", Offset = "0x31D080", VA = "0x18031E680", Slot = "7")]
+	// Token: 0x06002CAF RID: 11439 RVA: 0x00002118 File Offset: 0x00000318
+	[Token(Token = "0x6002CAF")]
+	[Address(RVA = "0x105C7D0", Offset = "0x105B5D0", VA = "0x18105C7D0", Slot = "7")]
 	public virtual ValueTuple<int, int> GetGoodBadPlayers()
 	{
 		return default(ValueTuple<int, int>);
 	}
 
-	// Token: 0x060001DB RID: 475 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001DB")]
-	[Address(RVA = "0x1FB790", Offset = "0x1FA190", VA = "0x1801FB790", Slot = "8")]
-	public virtual void GameModeAlert(int i)
+	// Token: 0x06002CB0 RID: 11440 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CB0")]
+	[Address(RVA = "0x2257B0", Offset = "0x2245B0", VA = "0x1802257B0", Slot = "8")]
+	public virtual void GameModeAlert(int ႙Ⴁ\u109CႨႤ႙ႧႥ\u109C\u109F\u109D)
 	{
 	}
 
-	// Token: 0x060001DC RID: 476 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001DC")]
-	[Address(RVA = "0x31E390", Offset = "0x31CD90", VA = "0x18031E390")]
-	public void EndRound()
+	// Token: 0x06002CB1 RID: 11441 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CB1")]
+	[Address(RVA = "0x105C450", Offset = "0x105B250", VA = "0x18105C450", Slot = "9")]
+	public virtual void EndRound()
 	{
 	}
 
-	// Token: 0x060001DD RID: 477 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001DD")]
-	[Address(RVA = "0x31E950", Offset = "0x31D350", VA = "0x18031E950")]
-	private void StartMusic()
+	// Token: 0x06002CB2 RID: 11442 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CB2")]
+	[Address(RVA = "0x105CAE0", Offset = "0x105B8E0", VA = "0x18105CAE0")]
+	private void ႙Ⴄ႙ႢႢႦႤ\u109DႢႥႧ()
 	{
 	}
 
-	// Token: 0x060001DE RID: 478 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001DE")]
-	[Address(RVA = "0x31EDE0", Offset = "0x31D7E0", VA = "0x18031EDE0")]
-	private void UpdateMusic()
+	// Token: 0x06002CB3 RID: 11443 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CB3")]
+	[Address(RVA = "0x105D150", Offset = "0x105BF50", VA = "0x18105D150")]
+	private void ႨႡႢႣႦႦႣႧႨႥႣ()
 	{
 	}
 
-	// Token: 0x060001DF RID: 479 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001DF")]
-	[Address(RVA = "0x31E340", Offset = "0x31CD40", VA = "0x18031E340")]
-	protected void EndMusic()
+	// Token: 0x06002CB4 RID: 11444 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CB4")]
+	[Address(RVA = "0x105D290", Offset = "0x105C090", VA = "0x18105D290")]
+	protected void ႨႣႠႣႢႠႧ႙Ⴃ\u109A\u109C()
 	{
 	}
 
-	// Token: 0x060001E0 RID: 480
-	[Token(Token = "0x60001E0")]
+	// Token: 0x06002CB5 RID: 11445
+	[Token(Token = "0x6002CB5")]
 	public abstract void InitMode();
 
-	// Token: 0x060001E1 RID: 481
-	[Token(Token = "0x60001E1")]
+	// Token: 0x06002CB6 RID: 11446
+	[Token(Token = "0x6002CB6")]
 	public abstract void OnFreezeOver();
 
-	// Token: 0x060001E2 RID: 482
-	[Token(Token = "0x60001E2")]
+	// Token: 0x06002CB7 RID: 11447
+	[Token(Token = "0x6002CB7")]
 	public abstract void OnRoundOver();
 
-	// Token: 0x060001E3 RID: 483
-	[Token(Token = "0x60001E3")]
-	public abstract void OnPlayerSpawnOrDespawn(ulong playerId);
+	// Token: 0x06002CB8 RID: 11448
+	[Token(Token = "0x6002CB8")]
+	public abstract void OnPlayerSpawnOrDespawn(ulong ႧႤ\u109B\u109F\u109BႢ\u109E\u109CႢ\u109C\u109E);
 
-	// Token: 0x060001E4 RID: 484
-	[Token(Token = "0x60001E4")]
+	// Token: 0x06002CB9 RID: 11449
+	[Token(Token = "0x6002CB9")]
 	public abstract void ModeUpdate();
 
-	// Token: 0x060001E5 RID: 485
-	[Token(Token = "0x60001E5")]
+	// Token: 0x06002CBA RID: 11450
+	[Token(Token = "0x6002CBA")]
 	public abstract void StopGame();
 
-	// Token: 0x060001E6 RID: 486
-	[Token(Token = "0x60001E6")]
-	public abstract void PlayerDied(ulong deadId, ulong killerId);
+	// Token: 0x06002CBB RID: 11451
+	[Token(Token = "0x6002CBB")]
+	public abstract void PlayerDied(ulong \u109BႨ\u109BႣႥႣႢႥႦႤ\u109F, ulong ႡႢႢႠႢႥႦႡ\u109CႦႨ);
 
-	// Token: 0x060001E7 RID: 487 RVA: 0x00002298 File Offset: 0x00000498
-	[Token(Token = "0x60001E7")]
-	[Address(RVA = "0x31E660", Offset = "0x31D060", VA = "0x18031E660")]
+	// Token: 0x06002CBC RID: 11452 RVA: 0x000020B8 File Offset: 0x000002B8
+	[Token(Token = "0x6002CBC")]
+	[Address(RVA = "0x105C7B0", Offset = "0x105B5B0", VA = "0x18105C7B0")]
 	public float GetFreezeTime()
 	{
 		return 0f;
 	}
 
-	// Token: 0x060001E8 RID: 488 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001E8")]
-	[Address(RVA = "0x31E8F0", Offset = "0x31D2F0", VA = "0x18031E8F0")]
-	public void SetGameModeTimer(float time, int state)
+	// Token: 0x06002CBD RID: 11453 RVA: 0x00002052 File Offset: 0x00000252
+	[Token(Token = "0x6002CBD")]
+	[Address(RVA = "0x105C750", Offset = "0x105B550", VA = "0x18105C750")]
+	public string GetFreezeTimeSeconds()
+	{
+		return null;
+	}
+
+	// Token: 0x06002CBE RID: 11454 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CBE")]
+	[Address(RVA = "0x105CA70", Offset = "0x105B870", VA = "0x18105CA70")]
+	public void SetGameModeTimer(float ႨႠ\u109DႢ\u109AႢႤႧႡ\u109FႡ, int \u109DႢႡႢ\u109D\u109DႨ\u109AႤ\u109A\u109E)
 	{
 	}
 
-	// Token: 0x060001E9 RID: 489 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001E9")]
-	[Address(RVA = "0x31E5B0", Offset = "0x31CFB0", VA = "0x18031E5B0")]
+	// Token: 0x06002CBF RID: 11455 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CBF")]
+	[Address(RVA = "0x105C690", Offset = "0x105B490", VA = "0x18105C690")]
 	public void GameOver()
 	{
 	}
 
-	// Token: 0x060001EA RID: 490 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60001EA")]
-	[Address(RVA = "0x31F780", Offset = "0x31E180", VA = "0x18031F780")]
+	// Token: 0x06002CC0 RID: 11456 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6002CC0")]
+	[Address(RVA = "0x105C430", Offset = "0x105B230", VA = "0x18105C430")]
 	protected GameMode()
 	{
 	}
 
-	// Token: 0x04000219 RID: 537
-	[Token(Token = "0x4000219")]
+	// Token: 0x0400049B RID: 1179
+	[Token(Token = "0x400049B")]
 	[FieldOffset(Offset = "0x18")]
-	protected MyTimer freezeTimer;
+	protected \u109C\u109F႙႙ႦႡႥႤ\u109BႢ\u109A freezeTimer;
 
-	// Token: 0x0400021A RID: 538
-	[Token(Token = "0x400021A")]
+	// Token: 0x0400049C RID: 1180
+	[Token(Token = "0x400049C")]
 	[FieldOffset(Offset = "0x20")]
-	public GameMode.ModeState modeState;
+	public GameMode.Ⴄ\u109AႤ\u109E\u109EႣႤ\u109AႤႦႤ modeState;
 
-	// Token: 0x0400021B RID: 539
-	[Token(Token = "0x400021B")]
+	// Token: 0x0400049D RID: 1181
+	[Token(Token = "0x400049D")]
 	[FieldOffset(Offset = "0x24")]
 	protected float modeTime;
 
-	// Token: 0x0400021C RID: 540
-	[Token(Token = "0x400021C")]
+	// Token: 0x0400049E RID: 1182
+	[Token(Token = "0x400049E")]
 	[FieldOffset(Offset = "0x28")]
 	private int lastTick;
 
-	// Token: 0x0400021D RID: 541
-	[Token(Token = "0x400021D")]
+	// Token: 0x0400049F RID: 1183
+	[Token(Token = "0x400049F")]
 	[FieldOffset(Offset = "0x2C")]
 	private int forcedPlayersLeft;
 
-	// Token: 0x0400021E RID: 542
-	[Token(Token = "0x400021E")]
+	// Token: 0x040004A0 RID: 1184
+	[Token(Token = "0x40004A0")]
 	[FieldOffset(Offset = "0x30")]
 	private float totalRoundTime;
 
-	// Token: 0x02000078 RID: 120
-	[Token(Token = "0x2000078")]
-	public enum ModeState
+	// Token: 0x020000C7 RID: 199
+	[Token(Token = "0x20000C7")]
+	public enum Ⴄ\u109AႤ\u109E\u109EႣႤ\u109AႤႦႤ
 	{
-		// Token: 0x04000220 RID: 544
-		[Token(Token = "0x4000220")]
+		// Token: 0x040004A2 RID: 1186
+		[Token(Token = "0x40004A2")]
 		Freeze,
-		// Token: 0x04000221 RID: 545
-		[Token(Token = "0x4000221")]
+		// Token: 0x040004A3 RID: 1187
+		[Token(Token = "0x40004A3")]
 		Playing,
-		// Token: 0x04000222 RID: 546
-		[Token(Token = "0x4000222")]
+		// Token: 0x040004A4 RID: 1188
+		[Token(Token = "0x40004A4")]
 		Ended,
-		// Token: 0x04000223 RID: 547
-		[Token(Token = "0x4000223")]
+		// Token: 0x040004A5 RID: 1189
+		[Token(Token = "0x40004A5")]
 		GameOver
 	}
 }

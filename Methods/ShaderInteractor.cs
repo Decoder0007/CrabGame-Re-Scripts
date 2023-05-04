@@ -2,20 +2,20 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-// Token: 0x0200010E RID: 270
-[Token(Token = "0x200010E")]
+// Token: 0x02000171 RID: 369
+[Token(Token = "0x2000171")]
 public class ShaderInteractor : MonoBehaviour
 {
-	// Token: 0x060006E8 RID: 1768 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60006E8")]
-	[Address(RVA = "0x2EB3E0", Offset = "0x2E9DE0", VA = "0x1802EB3E0")]
+	// Token: 0x06005157 RID: 20823 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6005157")]
+	[Address(RVA = "0x1060F20", Offset = "0x105FD20", VA = "0x181060F20")]
 	private void Update()
 	{
 	}
 
-	// Token: 0x060006E9 RID: 1769 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60006E9")]
-	[Address(RVA = "0x2AD190", Offset = "0x2ABB90", VA = "0x1802AD190")]
+	// Token: 0x06005158 RID: 20824 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6005158")]
+	[Address(RVA = "0x264FC0", Offset = "0x263DC0", VA = "0x180264FC0")]
 	public ShaderInteractor()
 	{
 	}

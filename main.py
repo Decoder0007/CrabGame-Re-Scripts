@@ -1,13 +1,14 @@
 import os
+import copy
 
-def LoadData():
+def LoadData(folder):
     print("Loading Data...")
-    onlyfiles = [f for f in os.listdir("Methods/") if os.path.isfile(os.path.join("Methods/", f))]
+    onlyfiles = [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
     data = {}
     for f in onlyfiles:
         data[f[0:-3]] = []
 
-        with open("Methods/"+f, "r") as file:
+        with open(folder+f, "r") as file:
             Lines = file.readlines()
             print("Reading File:  "+f)
             currentLine = 0
@@ -20,53 +21,46 @@ def LoadData():
                     data.get(f[0:-3]).append(line.replace("    ", "").strip())
                 currentLine += 1
 
-    print("All data has been loaded")
+    print("Loaded Data Folder")
     return data
 
-data = LoadData()
+obfuscatedData = LoadData("Methods/")
+deobfuscatedData = LoadData("Methods Deobfuscated/")
 
-def ReverseEngineer():
-    global data
-    methods = []
-    print("Enter all known method names")
-    while True:
-        inp = input()
-        if inp != "":
-            methods.append(inp)
-        else:
-            break
+def ReverseEngineer(methods):
+    filteredData = dict(copy.deepcopy(obfuscatedData))
 
     results = {}
-    print("Calculating Class Scores...")
-    for className in data:
+    for className in filteredData:
         results[className] = 0
         for testMethod in methods:
-            for method in data[className]:
+            for method in filteredData[className]:
                 if testMethod in method:
                     results[className] += 1
-
-    print("Sorting Results...")
+                    filteredData[className].remove(method)
+                    break
 
     sortedResults = sorted(results.items(), key=lambda x:x[1], reverse=True)
 
     if sortedResults[0][1] > sortedResults[1][1]:
-        print("The class is most likely:  " + str(sortedResults[0][0]))
+        print(str(sortedResults[0][0]))
     elif sortedResults[0][1] > 0:
-        highestScore = sortedResults[0][1]
+        score = sortedResults[0][1]
         couldBe = []
         for result in sortedResults:
-            if result[1] == highestScore:
+            if result[1] == score:
                 couldBe.append(result)
             else:
                 break
         
-        print("Found multiple classes with inputted data")
         for result in couldBe:
-            print(result[0])
+            print(result[0] + ", ", end="")
+        print()
     else:
-        print("No matching classes found.\nTry again with less data or make sure the data you inputted was spelt correctly")
+        print("Unknown Class")
 
-while True:
-    ReverseEngineer()
-    input("Press enter to continue")
-    os.system("cls")
+os.system("cls")
+
+for method in deobfuscatedData:
+    print(method + " -> ", end="")
+    ReverseEngineer(deobfuscatedData[method])

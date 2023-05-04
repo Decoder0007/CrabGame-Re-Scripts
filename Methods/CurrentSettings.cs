@@ -2,325 +2,332 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-// Token: 0x020000F6 RID: 246
-[Token(Token = "0x20000F6")]
+// Token: 0x02000159 RID: 345
+[Token(Token = "0x2000159")]
 public class CurrentSettings : MonoBehaviour
 {
-	// Token: 0x0600065F RID: 1631 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600065F")]
-	[Address(RVA = "0x30E820", Offset = "0x30D220", VA = "0x18030E820")]
+	// Token: 0x06004DEB RID: 19947 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DEB")]
+	[Address(RVA = "0x104F070", Offset = "0x104DE70", VA = "0x18104F070")]
 	private void Awake()
 	{
 	}
 
-	// Token: 0x06000660 RID: 1632 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000660")]
-	[Address(RVA = "0x30E940", Offset = "0x30D340", VA = "0x18030E940")]
+	// Token: 0x06004DEC RID: 19948 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DEC")]
+	[Address(RVA = "0x104F190", Offset = "0x104DF90", VA = "0x18104F190")]
 	private void Start()
 	{
 	}
 
-	// Token: 0x06000661 RID: 1633 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000661")]
-	[Address(RVA = "0x30E940", Offset = "0x30D340", VA = "0x18030E940")]
+	// Token: 0x06004DED RID: 19949 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DED")]
+	[Address(RVA = "0x104F190", Offset = "0x104DF90", VA = "0x18104F190")]
 	private void InitSettings()
 	{
 	}
 
-	// Token: 0x06000662 RID: 1634 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000662")]
-	[Address(RVA = "0x310200", Offset = "0x30EC00", VA = "0x180310200")]
+	// Token: 0x06004DEE RID: 19950 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DEE")]
+	[Address(RVA = "0x1050E40", Offset = "0x104FC40", VA = "0x181050E40")]
 	public void UpdateSave()
 	{
 	}
 
-	// Token: 0x06000663 RID: 1635 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000663")]
-	[Address(RVA = "0x30EC20", Offset = "0x30D620", VA = "0x18030EC20")]
+	// Token: 0x06004DEF RID: 19951 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DEF")]
+	[Address(RVA = "0x104F540", Offset = "0x104E340", VA = "0x18104F540")]
 	public void UpdateCamShake(bool b)
 	{
 	}
 
-	// Token: 0x06000664 RID: 1636 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000664")]
-	[Address(RVA = "0x312120", Offset = "0x310B20", VA = "0x180312120")]
+	// Token: 0x06004DF0 RID: 19952 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF0")]
+	[Address(RVA = "0x1052F30", Offset = "0x1051D30", VA = "0x181052F30")]
 	public void UpdateSens(float i)
 	{
 	}
 
-	// Token: 0x06000665 RID: 1637 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000665")]
-	[Address(RVA = "0x30F1F0", Offset = "0x30DBF0", VA = "0x18030F1F0")]
+	// Token: 0x06004DF1 RID: 19953 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF1")]
+	[Address(RVA = "0x10501D0", Offset = "0x104EFD0", VA = "0x1810501D0")]
+	public void UpdateInputDelay(int i)
+	{
+	}
+
+	// Token: 0x06004DF2 RID: 19954 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF2")]
+	[Address(RVA = "0x104FBA0", Offset = "0x104E9A0", VA = "0x18104FBA0")]
 	public void UpdateFov(float i)
 	{
 	}
 
-	// Token: 0x06000666 RID: 1638 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000666")]
-	[Address(RVA = "0x30F720", Offset = "0x30E120", VA = "0x18030F720")]
+	// Token: 0x06004DF3 RID: 19955 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF3")]
+	[Address(RVA = "0x10502D0", Offset = "0x104F0D0", VA = "0x1810502D0")]
 	public void UpdateInverted(bool hor, bool ver)
 	{
 	}
 
-	// Token: 0x06000667 RID: 1639 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000667")]
-	[Address(RVA = "0x30F4F0", Offset = "0x30DEF0", VA = "0x18030F4F0")]
+	// Token: 0x06004DF4 RID: 19956 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF4")]
+	[Address(RVA = "0x104FF50", Offset = "0x104ED50", VA = "0x18104FF50")]
 	public void UpdateGrass(bool b)
 	{
 	}
 
-	// Token: 0x06000668 RID: 1640 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000668")]
-	[Address(RVA = "0x312830", Offset = "0x311230", VA = "0x180312830")]
+	// Token: 0x06004DF5 RID: 19957 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF5")]
+	[Address(RVA = "0x1053730", Offset = "0x1052530", VA = "0x181053730")]
 	public void UpdateTutorial(bool b)
 	{
 	}
 
-	// Token: 0x06000669 RID: 1641 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000669")]
-	[Address(RVA = "0x30ED00", Offset = "0x30D700", VA = "0x18030ED00")]
+	// Token: 0x06004DF6 RID: 19958 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF6")]
+	[Address(RVA = "0x104F680", Offset = "0x104E480", VA = "0x18104F680")]
 	public void UpdateChat(bool b)
 	{
 	}
 
-	// Token: 0x0600066A RID: 1642 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066A")]
-	[Address(RVA = "0x312650", Offset = "0x311050", VA = "0x180312650")]
+	// Token: 0x06004DF7 RID: 19959 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF7")]
+	[Address(RVA = "0x1053550", Offset = "0x1052350", VA = "0x181053550")]
 	public void UpdateStreamerMode(bool b)
 	{
 	}
 
-	// Token: 0x0600066B RID: 1643 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066B")]
-	[Address(RVA = "0x30F640", Offset = "0x30E040", VA = "0x18030F640")]
+	// Token: 0x06004DF8 RID: 19960 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF8")]
+	[Address(RVA = "0x1050090", Offset = "0x104EE90", VA = "0x181050090")]
 	public void UpdateHoldCrouch(bool b)
 	{
 	}
 
-	// Token: 0x0600066C RID: 1644 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066C")]
-	[Address(RVA = "0x312400", Offset = "0x310E00", VA = "0x180312400")]
+	// Token: 0x06004DF9 RID: 19961 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DF9")]
+	[Address(RVA = "0x1053270", Offset = "0x1052070", VA = "0x181053270")]
 	public void UpdateShadowQuality(int i)
 	{
 	}
 
-	// Token: 0x0600066D RID: 1645 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066D")]
-	[Address(RVA = "0x3124C0", Offset = "0x310EC0", VA = "0x1803124C0")]
+	// Token: 0x06004DFA RID: 19962 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFA")]
+	[Address(RVA = "0x1053360", Offset = "0x1052160", VA = "0x181053360")]
 	public void UpdateShadowResolution(int i)
 	{
 	}
 
-	// Token: 0x0600066E RID: 1646 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066E")]
-	[Address(RVA = "0x312260", Offset = "0x310C60", VA = "0x180312260")]
+	// Token: 0x06004DFB RID: 19963 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFB")]
+	[Address(RVA = "0x1053080", Offset = "0x1051E80", VA = "0x181053080")]
 	public void UpdateShadowCascades(int i)
 	{
 	}
 
-	// Token: 0x0600066F RID: 1647 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600066F")]
-	[Address(RVA = "0x312330", Offset = "0x310D30", VA = "0x180312330")]
+	// Token: 0x06004DFC RID: 19964 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFC")]
+	[Address(RVA = "0x1053170", Offset = "0x1051F70", VA = "0x181053170")]
 	public void UpdateShadowDistance(int i)
 	{
 	}
 
-	// Token: 0x06000670 RID: 1648 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000670")]
-	[Address(RVA = "0x312760", Offset = "0x311160", VA = "0x180312760")]
+	// Token: 0x06004DFD RID: 19965 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFD")]
+	[Address(RVA = "0x1053630", Offset = "0x1052430", VA = "0x181053630")]
 	public void UpdateTextureQuality(int i)
 	{
 	}
 
-	// Token: 0x06000671 RID: 1649 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000671")]
-	[Address(RVA = "0x30EA40", Offset = "0x30D440", VA = "0x18030EA40")]
+	// Token: 0x06004DFE RID: 19966 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFE")]
+	[Address(RVA = "0x104F2D0", Offset = "0x104E0D0", VA = "0x18104F2D0")]
 	public void UpdateAntiAliasing(int i)
 	{
 	}
 
-	// Token: 0x06000672 RID: 1650 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000672")]
-	[Address(RVA = "0x312580", Offset = "0x310F80", VA = "0x180312580")]
+	// Token: 0x06004DFF RID: 19967 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004DFF")]
+	[Address(RVA = "0x1053450", Offset = "0x1052250", VA = "0x181053450")]
 	public void UpdateSoftParticles(bool b)
 	{
 	}
 
-	// Token: 0x06000673 RID: 1651 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000673")]
-	[Address(RVA = "0x30EB30", Offset = "0x30D530", VA = "0x18030EB30")]
+	// Token: 0x06004E00 RID: 19968 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E00")]
+	[Address(RVA = "0x104F410", Offset = "0x104E210", VA = "0x18104F410")]
 	public void UpdateBloom(int i)
 	{
 	}
 
-	// Token: 0x06000674 RID: 1652 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000674")]
-	[Address(RVA = "0x30FD60", Offset = "0x30E760", VA = "0x18030FD60")]
+	// Token: 0x06004E01 RID: 19969 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E01")]
+	[Address(RVA = "0x1050940", Offset = "0x104F740", VA = "0x181050940")]
 	public void UpdateMotionBlur(bool b)
 	{
 	}
 
-	// Token: 0x06000675 RID: 1653 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000675")]
-	[Address(RVA = "0x30E950", Offset = "0x30D350", VA = "0x18030E950")]
+	// Token: 0x06004E02 RID: 19970 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E02")]
+	[Address(RVA = "0x104F1A0", Offset = "0x104DFA0", VA = "0x18104F1A0")]
 	public void UpdateAO(bool b)
 	{
 	}
 
-	// Token: 0x06000676 RID: 1654 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000676")]
-	[Address(RVA = "0x310010", Offset = "0x30EA10", VA = "0x180310010")]
+	// Token: 0x06004E03 RID: 19971 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E03")]
+	[Address(RVA = "0x1050C30", Offset = "0x104FA30", VA = "0x181050C30")]
 	public void UpdateResolution(int width, int height, int refreshRate)
 	{
 	}
 
-	// Token: 0x06000677 RID: 1655 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000677")]
-	[Address(RVA = "0x30F420", Offset = "0x30DE20", VA = "0x18030F420")]
+	// Token: 0x06004E04 RID: 19972 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E04")]
+	[Address(RVA = "0x104FE50", Offset = "0x104EC50", VA = "0x18104FE50")]
 	public void UpdateFullscreen(bool i)
 	{
 	}
 
-	// Token: 0x06000678 RID: 1656 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000678")]
-	[Address(RVA = "0x30F360", Offset = "0x30DD60", VA = "0x18030F360")]
+	// Token: 0x06004E05 RID: 19973 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E05")]
+	[Address(RVA = "0x104FD60", Offset = "0x104EB60", VA = "0x18104FD60")]
 	public void UpdateFullscreenMode(int i)
 	{
 	}
 
-	// Token: 0x06000679 RID: 1657 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000679")]
-	[Address(RVA = "0x312950", Offset = "0x311350", VA = "0x180312950")]
+	// Token: 0x06004E06 RID: 19974 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E06")]
+	[Address(RVA = "0x1053830", Offset = "0x1052630", VA = "0x181053830")]
 	public void UpdateVSync(int i)
 	{
 	}
 
-	// Token: 0x0600067A RID: 1658 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067A")]
-	[Address(RVA = "0x30F900", Offset = "0x30E300", VA = "0x18030F900")]
+	// Token: 0x06004E07 RID: 19975 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E07")]
+	[Address(RVA = "0x1050470", Offset = "0x104F270", VA = "0x181050470")]
 	public void UpdateMaxFps(int i)
 	{
 	}
 
-	// Token: 0x0600067B RID: 1659 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067B")]
-	[Address(RVA = "0x312DD0", Offset = "0x3117D0", VA = "0x180312DD0")]
+	// Token: 0x06004E08 RID: 19976 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E08")]
+	[Address(RVA = "0x1053D20", Offset = "0x1052B20", VA = "0x181053D20")]
 	public void UpdateVolume(int i)
 	{
 	}
 
-	// Token: 0x0600067C RID: 1660 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067C")]
-	[Address(RVA = "0x30FE50", Offset = "0x30E850", VA = "0x18030FE50")]
+	// Token: 0x06004E09 RID: 19977 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E09")]
+	[Address(RVA = "0x1050A70", Offset = "0x104F870", VA = "0x181050A70")]
 	public void UpdateMusic(int i)
 	{
 	}
 
-	// Token: 0x0600067D RID: 1661 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067D")]
-	[Address(RVA = "0x312A10", Offset = "0x311410", VA = "0x180312A10")]
+	// Token: 0x06004E0A RID: 19978 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E0A")]
+	[Address(RVA = "0x1053920", Offset = "0x1052720", VA = "0x181053920")]
 	public void UpdateVoip(int i)
 	{
 	}
 
-	// Token: 0x0600067E RID: 1662 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067E")]
-	[Address(RVA = "0x30F9C0", Offset = "0x30E3C0", VA = "0x18030F9C0")]
+	// Token: 0x06004E0B RID: 19979 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E0B")]
+	[Address(RVA = "0x1050560", Offset = "0x104F360", VA = "0x181050560")]
 	public void UpdateMicSetting(int i)
 	{
 	}
 
-	// Token: 0x0600067F RID: 1663 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x600067F")]
-	[Address(RVA = "0x30EE90", Offset = "0x30D890", VA = "0x18030EE90")]
+	// Token: 0x06004E0C RID: 19980 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E0C")]
+	[Address(RVA = "0x104F7F0", Offset = "0x104E5F0", VA = "0x18104F7F0")]
 	public void UpdateDeaf(int i)
 	{
 	}
 
-	// Token: 0x06000680 RID: 1664 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x6000680")]
-	[Address(RVA = "0x312F00", Offset = "0x311900", VA = "0x180312F00")]
+	// Token: 0x06004E0D RID: 19981 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004E0D")]
+	[Address(RVA = "0x1053E80", Offset = "0x1052C80", VA = "0x181053E80")]
 	public CurrentSettings()
 	{
 	}
 
-	// Token: 0x0400058D RID: 1421
-	[Token(Token = "0x400058D")]
+	// Token: 0x040008C5 RID: 2245
+	[Token(Token = "0x40008C5")]
 	[FieldOffset(Offset = "0x0")]
 	public static bool cameraShake;
 
-	// Token: 0x0400058E RID: 1422
-	[Token(Token = "0x400058E")]
+	// Token: 0x040008C6 RID: 2246
+	[Token(Token = "0x40008C6")]
 	[FieldOffset(Offset = "0x1")]
 	public static bool grass;
 
-	// Token: 0x0400058F RID: 1423
-	[Token(Token = "0x400058F")]
+	// Token: 0x040008C7 RID: 2247
+	[Token(Token = "0x40008C7")]
 	[FieldOffset(Offset = "0x2")]
 	public static bool invertedHor;
 
-	// Token: 0x04000590 RID: 1424
-	[Token(Token = "0x4000590")]
+	// Token: 0x040008C8 RID: 2248
+	[Token(Token = "0x40008C8")]
 	[FieldOffset(Offset = "0x3")]
 	public static bool invertedVer;
 
-	// Token: 0x04000591 RID: 1425
-	[Token(Token = "0x4000591")]
+	// Token: 0x040008C9 RID: 2249
+	[Token(Token = "0x40008C9")]
 	[FieldOffset(Offset = "0x18")]
 	public float sensMultiplier;
 
-	// Token: 0x04000592 RID: 1426
-	[Token(Token = "0x4000592")]
+	// Token: 0x040008CA RID: 2250
+	[Token(Token = "0x40008CA")]
 	[FieldOffset(Offset = "0x1C")]
 	public int fov;
 
-	// Token: 0x04000593 RID: 1427
-	[Token(Token = "0x4000593")]
+	// Token: 0x040008CB RID: 2251
+	[Token(Token = "0x40008CB")]
 	[FieldOffset(Offset = "0x20")]
 	public bool tutorial;
 
-	// Token: 0x04000594 RID: 1428
-	[Token(Token = "0x4000594")]
+	// Token: 0x040008CC RID: 2252
+	[Token(Token = "0x40008CC")]
 	[FieldOffset(Offset = "0x4")]
 	public static bool holdCrouch;
 
-	// Token: 0x04000595 RID: 1429
-	[Token(Token = "0x4000595")]
+	// Token: 0x040008CD RID: 2253
+	[Token(Token = "0x40008CD")]
 	[FieldOffset(Offset = "0x8")]
 	public static float volume;
 
-	// Token: 0x04000596 RID: 1430
-	[Token(Token = "0x4000596")]
+	// Token: 0x040008CE RID: 2254
+	[Token(Token = "0x40008CE")]
 	[FieldOffset(Offset = "0xC")]
 	public static float music;
 
-	// Token: 0x04000597 RID: 1431
-	[Token(Token = "0x4000597")]
+	// Token: 0x040008CF RID: 2255
+	[Token(Token = "0x40008CF")]
 	[FieldOffset(Offset = "0x10")]
 	public static float voip;
 
-	// Token: 0x04000598 RID: 1432
-	[Token(Token = "0x4000598")]
+	// Token: 0x040008D0 RID: 2256
+	[Token(Token = "0x40008D0")]
 	[FieldOffset(Offset = "0x14")]
-	public static Settings.MicSetting micSetting;
+	public static \u109DႨ\u109AႣ\u109AႨ\u109A\u109BႧ\u109D\u109C.\u109AႨ\u109C\u109D\u109FႢ\u109EႤ\u109DႣ\u109A micSetting;
 
-	// Token: 0x04000599 RID: 1433
-	[Token(Token = "0x4000599")]
+	// Token: 0x040008D1 RID: 2257
+	[Token(Token = "0x40008D1")]
 	[FieldOffset(Offset = "0x24")]
 	public int deaf;
 
-	// Token: 0x0400059A RID: 1434
-	[Token(Token = "0x400059A")]
+	// Token: 0x040008D2 RID: 2258
+	[Token(Token = "0x40008D2")]
 	[FieldOffset(Offset = "0x28")]
 	public string micDevice;
 
-	// Token: 0x0400059B RID: 1435
-	[Token(Token = "0x400059B")]
+	// Token: 0x040008D3 RID: 2259
+	[Token(Token = "0x40008D3")]
 	[FieldOffset(Offset = "0x18")]
 	public static CurrentSettings Instance;
 
-	// Token: 0x0400059C RID: 1436
-	[Token(Token = "0x400059C")]
+	// Token: 0x040008D4 RID: 2260
+	[Token(Token = "0x40008D4")]
 	[FieldOffset(Offset = "0x20")]
 	public static bool lastSentVcOn;
 }

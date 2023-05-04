@@ -2,399 +2,399 @@
 using Il2CppDummyDll;
 using UnityEngine;
 
-// Token: 0x020000E9 RID: 233
-[Token(Token = "0x20000E9")]
+// Token: 0x0200014D RID: 333
+[Token(Token = "0x200014D")]
 public class PlayerInput : MonoBehaviour
 {
-	// Token: 0x17000028 RID: 40
-	// (get) Token: 0x060005D6 RID: 1494 RVA: 0x000029A0 File Offset: 0x00000BA0
-	// (set) Token: 0x060005D7 RID: 1495 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x17000028")]
-	public float sensitivity
+	// Token: 0x1700003E RID: 62
+	// (get) Token: 0x06004BF7 RID: 19447 RVA: 0x000020B8 File Offset: 0x000002B8
+	// (set) Token: 0x06004BF8 RID: 19448 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x1700003E")]
+	public static float sensitivity
 	{
-		[Token(Token = "0x60005D6")]
-		[Address(RVA = "0x225E90", Offset = "0x224890", VA = "0x180225E90")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BF7")]
+		[Address(RVA = "0x105F140", Offset = "0x105DF40", VA = "0x18105F140")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return 0f;
 		}
-		[Token(Token = "0x60005D7")]
-		[Address(RVA = "0x225F10", Offset = "0x224910", VA = "0x180225F10")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BF8")]
+		[Address(RVA = "0x105F230", Offset = "0x105E030", VA = "0x18105F230")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		set
 		{
 		}
 	}
 
-	// Token: 0x17000029 RID: 41
-	// (get) Token: 0x060005D8 RID: 1496 RVA: 0x000029B8 File Offset: 0x00000BB8
-	// (set) Token: 0x060005D9 RID: 1497 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x17000029")]
+	// Token: 0x1700003F RID: 63
+	// (get) Token: 0x06004BF9 RID: 19449 RVA: 0x000020B8 File Offset: 0x000002B8
+	// (set) Token: 0x06004BFA RID: 19450 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x1700003F")]
 	public float x
 	{
-		[Token(Token = "0x60005D8")]
-		[Address(RVA = "0x225F80", Offset = "0x224980", VA = "0x180225F80")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BF9")]
+		[Address(RVA = "0x24FF00", Offset = "0x24ED00", VA = "0x18024FF00")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return 0f;
 		}
-		[Token(Token = "0x60005D9")]
-		[Address(RVA = "0x225FF0", Offset = "0x2249F0", VA = "0x180225FF0")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFA")]
+		[Address(RVA = "0x24FF80", Offset = "0x24ED80", VA = "0x18024FF80")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		private set
 		{
 		}
 	}
 
-	// Token: 0x1700002A RID: 42
-	// (get) Token: 0x060005DA RID: 1498 RVA: 0x000029D0 File Offset: 0x00000BD0
-	// (set) Token: 0x060005DB RID: 1499 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x1700002A")]
+	// Token: 0x17000040 RID: 64
+	// (get) Token: 0x06004BFB RID: 19451 RVA: 0x000020B8 File Offset: 0x000002B8
+	// (set) Token: 0x06004BFC RID: 19452 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x17000040")]
 	public float y
 	{
-		[Token(Token = "0x60005DA")]
-		[Address(RVA = "0x225F90", Offset = "0x224990", VA = "0x180225F90")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFB")]
+		[Address(RVA = "0x24FFE0", Offset = "0x24EDE0", VA = "0x18024FFE0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return 0f;
 		}
-		[Token(Token = "0x60005DB")]
-		[Address(RVA = "0x226000", Offset = "0x224A00", VA = "0x180226000")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFC")]
+		[Address(RVA = "0x250050", Offset = "0x24EE50", VA = "0x180250050")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		private set
 		{
 		}
 	}
 
-	// Token: 0x1700002B RID: 43
-	// (get) Token: 0x060005DC RID: 1500 RVA: 0x000029E8 File Offset: 0x00000BE8
-	// (set) Token: 0x060005DD RID: 1501 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x1700002B")]
+	// Token: 0x17000041 RID: 65
+	// (get) Token: 0x06004BFD RID: 19453 RVA: 0x00002088 File Offset: 0x00000288
+	// (set) Token: 0x06004BFE RID: 19454 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x17000041")]
 	public bool jumping
 	{
-		[Token(Token = "0x60005DC")]
-		[Address(RVA = "0x3352E0", Offset = "0x333CE0", VA = "0x1803352E0")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFD")]
+		[Address(RVA = "0x24FC60", Offset = "0x24EA60", VA = "0x18024FC60")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60005DD")]
-		[Address(RVA = "0x335380", Offset = "0x333D80", VA = "0x180335380")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFE")]
+		[Address(RVA = "0x24FC80", Offset = "0x24EA80", VA = "0x18024FC80")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		private set
 		{
 		}
 	}
 
-	// Token: 0x1700002C RID: 44
-	// (get) Token: 0x060005DE RID: 1502 RVA: 0x00002A00 File Offset: 0x00000C00
-	// (set) Token: 0x060005DF RID: 1503 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x1700002C")]
+	// Token: 0x17000042 RID: 66
+	// (get) Token: 0x06004BFF RID: 19455 RVA: 0x00002088 File Offset: 0x00000288
+	// (set) Token: 0x06004C00 RID: 19456 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x17000042")]
 	public bool crouching
 	{
-		[Token(Token = "0x60005DE")]
-		[Address(RVA = "0x3352D0", Offset = "0x333CD0", VA = "0x1803352D0")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004BFF")]
+		[Address(RVA = "0x41D2D0", Offset = "0x41C0D0", VA = "0x18041D2D0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60005DF")]
-		[Address(RVA = "0x335370", Offset = "0x333D70", VA = "0x180335370")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004C00")]
+		[Address(RVA = "0x105F220", Offset = "0x105E020", VA = "0x18105F220")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		private set
 		{
 		}
 	}
 
-	// Token: 0x1700002D RID: 45
-	// (get) Token: 0x060005E0 RID: 1504 RVA: 0x00002A18 File Offset: 0x00000C18
-	// (set) Token: 0x060005E1 RID: 1505 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x1700002D")]
+	// Token: 0x17000043 RID: 67
+	// (get) Token: 0x06004C01 RID: 19457 RVA: 0x00002088 File Offset: 0x00000288
+	// (set) Token: 0x06004C02 RID: 19458 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x17000043")]
 	public bool sprinting
 	{
-		[Token(Token = "0x60005E0")]
-		[Address(RVA = "0x3352F0", Offset = "0x333CF0", VA = "0x1803352F0")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004C01")]
+		[Address(RVA = "0x105F1A0", Offset = "0x105DFA0", VA = "0x18105F1A0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return default(bool);
 		}
-		[Token(Token = "0x60005E1")]
-		[Address(RVA = "0x335390", Offset = "0x333D90", VA = "0x180335390")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004C02")]
+		[Address(RVA = "0x105F2A0", Offset = "0x105E0A0", VA = "0x18105F2A0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		private set
 		{
 		}
 	}
 
-	// Token: 0x1700002E RID: 46
-	// (get) Token: 0x060005E2 RID: 1506 RVA: 0x00002082 File Offset: 0x00000282
-	// (set) Token: 0x060005E3 RID: 1507 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x1700002E")]
+	// Token: 0x17000044 RID: 68
+	// (get) Token: 0x06004C03 RID: 19459 RVA: 0x00002052 File Offset: 0x00000252
+	// (set) Token: 0x06004C04 RID: 19460 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x17000044")]
 	public static PlayerInput Instance
 	{
-		[Token(Token = "0x60005E2")]
-		[Address(RVA = "0x335270", Offset = "0x333C70", VA = "0x180335270")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004C03")]
+		[Address(RVA = "0x105F0E0", Offset = "0x105DEE0", VA = "0x18105F0E0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		get
 		{
 			return null;
 		}
-		[Token(Token = "0x60005E3")]
-		[Address(RVA = "0x335300", Offset = "0x333D00", VA = "0x180335300")]
-		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+		[Token(Token = "0x6004C04")]
+		[Address(RVA = "0x105F1B0", Offset = "0x105DFB0", VA = "0x18105F1B0")]
+		[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 		set
 		{
 		}
 	}
 
-	// Token: 0x060005E4 RID: 1508 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005E4")]
-	[Address(RVA = "0x333D00", Offset = "0x332700", VA = "0x180333D00")]
+	// Token: 0x06004C05 RID: 19461 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C05")]
+	[Address(RVA = "0x105DD40", Offset = "0x105CB40", VA = "0x18105DD40")]
 	private void Awake()
 	{
 	}
 
-	// Token: 0x060005E5 RID: 1509 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005E5")]
-	[Address(RVA = "0x335110", Offset = "0x333B10", VA = "0x180335110")]
+	// Token: 0x06004C06 RID: 19462 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C06")]
+	[Address(RVA = "0x105EF50", Offset = "0x105DD50", VA = "0x18105EF50")]
 	private void Update()
 	{
 	}
 
-	// Token: 0x060005E6 RID: 1510 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005E6")]
-	[Address(RVA = "0x3341B0", Offset = "0x332BB0", VA = "0x1803341B0")]
+	// Token: 0x06004C07 RID: 19463 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C07")]
+	[Address(RVA = "0x105E080", Offset = "0x105CE80", VA = "0x18105E080")]
 	private void FixedUpdate()
 	{
 	}
 
-	// Token: 0x060005E7 RID: 1511 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005E7")]
-	[Address(RVA = "0x3350C0", Offset = "0x333AC0", VA = "0x1803350C0")]
+	// Token: 0x06004C08 RID: 19464 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C08")]
+	[Address(RVA = "0x105EF00", Offset = "0x105DD00", VA = "0x18105EF00")]
 	private void StopInput()
 	{
 	}
 
-	// Token: 0x060005E8 RID: 1512 RVA: 0x00002A30 File Offset: 0x00000C30
-	[Token(Token = "0x60005E8")]
-	[Address(RVA = "0x3340D0", Offset = "0x332AD0", VA = "0x1803340D0")]
-	public bool CheckInputDown(int keyCode)
+	// Token: 0x06004C09 RID: 19465 RVA: 0x00002088 File Offset: 0x00000288
+	[Token(Token = "0x6004C09")]
+	[Address(RVA = "0x105DFB0", Offset = "0x105CDB0", VA = "0x18105DFB0")]
+	public static bool CheckInputDown(int keyCode)
 	{
 		return default(bool);
 	}
 
-	// Token: 0x060005E9 RID: 1513 RVA: 0x00002A48 File Offset: 0x00000C48
-	[Token(Token = "0x60005E9")]
-	[Address(RVA = "0x334130", Offset = "0x332B30", VA = "0x180334130")]
-	public bool CheckInputUp(int keyCode)
+	// Token: 0x06004C0A RID: 19466 RVA: 0x00002088 File Offset: 0x00000288
+	[Token(Token = "0x6004C0A")]
+	[Address(RVA = "0x105E010", Offset = "0x105CE10", VA = "0x18105E010")]
+	public static bool CheckInputUp(int keyCode)
 	{
 		return default(bool);
 	}
 
-	// Token: 0x060005EA RID: 1514 RVA: 0x00002A60 File Offset: 0x00000C60
-	[Token(Token = "0x60005EA")]
-	[Address(RVA = "0x334150", Offset = "0x332B50", VA = "0x180334150")]
-	public bool CheckInput(int keyCode)
+	// Token: 0x06004C0B RID: 19467 RVA: 0x00002088 File Offset: 0x00000288
+	[Token(Token = "0x6004C0B")]
+	[Address(RVA = "0x105E020", Offset = "0x105CE20", VA = "0x18105E020")]
+	public static bool CheckInput(int keyCode)
 	{
 		return default(bool);
 	}
 
-	// Token: 0x060005EB RID: 1515 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005EB")]
-	[Address(RVA = "0x334620", Offset = "0x333020", VA = "0x180334620")]
+	// Token: 0x06004C0C RID: 19468 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C0C")]
+	[Address(RVA = "0x105E580", Offset = "0x105D380", VA = "0x18105E580")]
 	private void NotFrozenInput()
 	{
 	}
 
-	// Token: 0x060005EC RID: 1516 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005EC")]
-	[Address(RVA = "0x333A00", Offset = "0x332400", VA = "0x180333A00")]
+	// Token: 0x06004C0D RID: 19469 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C0D")]
+	[Address(RVA = "0x105D9A0", Offset = "0x105C7A0", VA = "0x18105D9A0")]
 	private void AlwaysInput()
 	{
 	}
 
-	// Token: 0x060005ED RID: 1517 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005ED")]
-	[Address(RVA = "0x334320", Offset = "0x332D20", VA = "0x180334320")]
+	// Token: 0x06004C0E RID: 19470 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C0E")]
+	[Address(RVA = "0x105E210", Offset = "0x105D010", VA = "0x18105E210")]
 	private void Look()
 	{
 	}
 
-	// Token: 0x060005EE RID: 1518 RVA: 0x00002A78 File Offset: 0x00000C78
-	[Token(Token = "0x60005EE")]
-	[Address(RVA = "0x334250", Offset = "0x332C50", VA = "0x180334250")]
+	// Token: 0x06004C0F RID: 19471 RVA: 0x00002148 File Offset: 0x00000348
+	[Token(Token = "0x6004C0F")]
+	[Address(RVA = "0x34E300", Offset = "0x34D100", VA = "0x18034E300")]
 	public Vector2 GetAxisInput()
 	{
 		return default(Vector2);
 	}
 
-	// Token: 0x060005EF RID: 1519 RVA: 0x00002A90 File Offset: 0x00000C90
-	[Token(Token = "0x60005EF")]
-	[Address(RVA = "0x334270", Offset = "0x332C70", VA = "0x180334270")]
+	// Token: 0x06004C10 RID: 19472 RVA: 0x000020B8 File Offset: 0x000002B8
+	[Token(Token = "0x6004C10")]
+	[Address(RVA = "0x105E130", Offset = "0x105CF30", VA = "0x18105E130")]
 	public float GetMouseX()
 	{
 		return 0f;
 	}
 
-	// Token: 0x060005F0 RID: 1520 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005F0")]
-	[Address(RVA = "0x225F50", Offset = "0x224950", VA = "0x180225F50")]
+	// Token: 0x06004C11 RID: 19473 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C11")]
+	[Address(RVA = "0x24FFB0", Offset = "0x24EDB0", VA = "0x18024FFB0")]
 	public void SetMouseOffset(float o)
 	{
 	}
 
-	// Token: 0x060005F1 RID: 1521 RVA: 0x00002AA8 File Offset: 0x00000CA8
-	[Token(Token = "0x60005F1")]
-	[Address(RVA = "0x225EF0", Offset = "0x2248F0", VA = "0x180225EF0")]
+	// Token: 0x06004C12 RID: 19474 RVA: 0x000020B8 File Offset: 0x000002B8
+	[Token(Token = "0x6004C12")]
+	[Address(RVA = "0x24FF50", Offset = "0x24ED50", VA = "0x18024FF50")]
 	public float GetMouseOffset()
 	{
 		return 0f;
 	}
 
-	// Token: 0x060005F2 RID: 1522 RVA: 0x00002050 File Offset: 0x00000250
-	[Token(Token = "0x60005F2")]
-	[Address(RVA = "0x335250", Offset = "0x333C50", VA = "0x180335250")]
+	// Token: 0x06004C13 RID: 19475 RVA: 0x00002050 File Offset: 0x00000250
+	[Token(Token = "0x6004C13")]
+	[Address(RVA = "0x105F0D0", Offset = "0x105DED0", VA = "0x18105F0D0")]
 	public PlayerInput()
 	{
 	}
 
-	// Token: 0x040004F9 RID: 1273
-	[Token(Token = "0x40004F9")]
+	// Token: 0x04000825 RID: 2085
+	[Token(Token = "0x4000825")]
 	[FieldOffset(Offset = "0x18")]
 	private float xRotation;
 
-	// Token: 0x040004FA RID: 1274
-	[Token(Token = "0x40004FA")]
-	[FieldOffset(Offset = "0x1C")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
-	private float <sensitivity>k__BackingField;
-
-	// Token: 0x040004FB RID: 1275
-	[Token(Token = "0x40004FB")]
+	// Token: 0x04000826 RID: 2086
+	[Token(Token = "0x4000826")]
 	[FieldOffset(Offset = "0x0")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
+	private static float <sensitivity>k__BackingField;
+
+	// Token: 0x04000827 RID: 2087
+	[Token(Token = "0x4000827")]
+	[FieldOffset(Offset = "0x4")]
 	public static float sensMultiplier;
 
-	// Token: 0x040004FC RID: 1276
-	[Token(Token = "0x40004FC")]
-	[FieldOffset(Offset = "0x20")]
+	// Token: 0x04000828 RID: 2088
+	[Token(Token = "0x4000828")]
+	[FieldOffset(Offset = "0x1C")]
 	private float desiredX;
 
-	// Token: 0x040004FD RID: 1277
-	[Token(Token = "0x40004FD")]
-	[FieldOffset(Offset = "0x24")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	// Token: 0x04000829 RID: 2089
+	[Token(Token = "0x4000829")]
+	[FieldOffset(Offset = "0x20")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private float <x>k__BackingField;
 
-	// Token: 0x040004FE RID: 1278
-	[Token(Token = "0x40004FE")]
-	[FieldOffset(Offset = "0x28")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	// Token: 0x0400082A RID: 2090
+	[Token(Token = "0x400082A")]
+	[FieldOffset(Offset = "0x24")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private float <y>k__BackingField;
 
-	// Token: 0x040004FF RID: 1279
-	[Token(Token = "0x40004FF")]
-	[FieldOffset(Offset = "0x2C")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	// Token: 0x0400082B RID: 2091
+	[Token(Token = "0x400082B")]
+	[FieldOffset(Offset = "0x28")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private bool <jumping>k__BackingField;
 
-	// Token: 0x04000500 RID: 1280
-	[Token(Token = "0x4000500")]
-	[FieldOffset(Offset = "0x2D")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	// Token: 0x0400082C RID: 2092
+	[Token(Token = "0x400082C")]
+	[FieldOffset(Offset = "0x29")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private bool <crouching>k__BackingField;
 
-	// Token: 0x04000501 RID: 1281
-	[Token(Token = "0x4000501")]
-	[FieldOffset(Offset = "0x2E")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	// Token: 0x0400082D RID: 2093
+	[Token(Token = "0x400082D")]
+	[FieldOffset(Offset = "0x2A")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private bool <sprinting>k__BackingField;
 
-	// Token: 0x04000502 RID: 1282
-	[Token(Token = "0x4000502")]
-	[FieldOffset(Offset = "0x30")]
+	// Token: 0x0400082E RID: 2094
+	[Token(Token = "0x400082E")]
+	[FieldOffset(Offset = "0x2C")]
 	private float mouseScroll;
 
-	// Token: 0x04000503 RID: 1283
-	[Token(Token = "0x4000503")]
-	[FieldOffset(Offset = "0x34")]
+	// Token: 0x0400082F RID: 2095
+	[Token(Token = "0x400082F")]
+	[FieldOffset(Offset = "0x30")]
 	public bool active;
 
-	// Token: 0x04000504 RID: 1284
-	[Token(Token = "0x4000504")]
+	// Token: 0x04000830 RID: 2096
+	[Token(Token = "0x4000830")]
 	[FieldOffset(Offset = "0x38")]
 	private Transform playerCam;
 
-	// Token: 0x04000505 RID: 1285
-	[Token(Token = "0x4000505")]
+	// Token: 0x04000831 RID: 2097
+	[Token(Token = "0x4000831")]
 	[FieldOffset(Offset = "0x40")]
 	private Transform orientation;
 
-	// Token: 0x04000506 RID: 1286
-	[Token(Token = "0x4000506")]
+	// Token: 0x04000832 RID: 2098
+	[Token(Token = "0x4000832")]
 	[FieldOffset(Offset = "0x48")]
-	private PlayerMovement playerMovement;
+	private Ⴂ\u109A႙ႦႣ႙\u109D\u109F\u109EႢ\u109B playerMovement;
 
-	// Token: 0x04000507 RID: 1287
-	[Token(Token = "0x4000507")]
+	// Token: 0x04000833 RID: 2099
+	[Token(Token = "0x4000833")]
 	[FieldOffset(Offset = "0x50")]
 	private DetectItems detectItems;
 
-	// Token: 0x04000508 RID: 1288
-	[Token(Token = "0x4000508")]
+	// Token: 0x04000834 RID: 2100
+	[Token(Token = "0x4000834")]
 	[FieldOffset(Offset = "0x58")]
-	private PlayerInventory playerInventory;
+	private Ⴈ႙႙႙ႤႤႨ\u109D\u109AႤႥ playerInventory;
 
-	// Token: 0x04000509 RID: 1289
-	[Token(Token = "0x4000509")]
+	// Token: 0x04000835 RID: 2101
+	[Token(Token = "0x4000835")]
 	[FieldOffset(Offset = "0x60")]
-	private PunchPlayers punchPlayers;
+	private ႠႠ\u109F႙ႨႨႨႧႡ\u109A\u109F punchPlayers;
 
-	// Token: 0x0400050A RID: 1290
-	[Token(Token = "0x400050A")]
+	// Token: 0x04000836 RID: 2102
+	[Token(Token = "0x4000836")]
 	[FieldOffset(Offset = "0x8")]
-	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0xDC390", Offset = "0xDB790")]
+	[Attribute(Name = "CompilerGeneratedAttribute", RVA = "0x382C0", Offset = "0x376C0")]
 	private static PlayerInput <Instance>k__BackingField;
 
-	// Token: 0x0400050B RID: 1291
-	[Token(Token = "0x400050B")]
+	// Token: 0x04000837 RID: 2103
+	[Token(Token = "0x4000837")]
 	[FieldOffset(Offset = "0x68")]
 	private float actualWallRotation;
 
-	// Token: 0x0400050C RID: 1292
-	[Token(Token = "0x400050C")]
+	// Token: 0x04000838 RID: 2104
+	[Token(Token = "0x4000838")]
 	[FieldOffset(Offset = "0x6C")]
 	private float wallRotationVel;
 
-	// Token: 0x0400050D RID: 1293
-	[Token(Token = "0x400050D")]
+	// Token: 0x04000839 RID: 2105
+	[Token(Token = "0x4000839")]
 	[FieldOffset(Offset = "0x70")]
 	public Vector3 cameraRot;
 
-	// Token: 0x0400050E RID: 1294
-	[Token(Token = "0x400050E")]
+	// Token: 0x0400083A RID: 2106
+	[Token(Token = "0x400083A")]
 	[FieldOffset(Offset = "0x7C")]
 	private float wallRunRotation;
 
-	// Token: 0x0400050F RID: 1295
-	[Token(Token = "0x400050F")]
+	// Token: 0x0400083B RID: 2107
+	[Token(Token = "0x400083B")]
 	[FieldOffset(Offset = "0x80")]
 	public float mouseOffsetY;
 
-	// Token: 0x020000EA RID: 234
-	[Token(Token = "0x20000EA")]
+	// Token: 0x0200014E RID: 334
+	[Token(Token = "0x200014E")]
 	public enum CustomKeyCode
 	{
-		// Token: 0x04000511 RID: 1297
-		[Token(Token = "0x4000511")]
+		// Token: 0x0400083D RID: 2109
+		[Token(Token = "0x400083D")]
 		MWheelDown = -1,
-		// Token: 0x04000512 RID: 1298
-		[Token(Token = "0x4000512")]
+		// Token: 0x0400083E RID: 2110
+		[Token(Token = "0x400083E")]
 		MWheelUp = -2
 	}
 }
