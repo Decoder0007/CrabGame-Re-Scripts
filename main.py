@@ -24,8 +24,26 @@ def LoadData(folder):
     print("Loaded Data Folder")
     return data
 
-obfuscatedData = LoadData("Methods/")
-deobfuscatedData = LoadData("Methods Deobfuscated/")
+obfuscatedData = LoadData("NewMethods/")
+deobfuscatedData = LoadData("OldMethods/")
+
+dontExist = [
+    "Client",
+    "GameState",
+    "IInteractPrompt",
+    "IInteractUp",
+    "KillCheater",
+    "LinkOpener",
+    "ListExtensions",
+    "NetworkingConstants",
+    "OnlineSpectator",
+    "PacketUtility",
+    "RaycastExtensions",
+    "ServerConfig",
+    "TextureUtility",
+    "VectorExtensions",
+    "zzTransparencyCapture"
+]
 
 def ReverseEngineer(methods):
     filteredData = dict(copy.deepcopy(obfuscatedData))
@@ -43,7 +61,7 @@ def ReverseEngineer(methods):
     sortedResults = sorted(results.items(), key=lambda x:x[1], reverse=True)
 
     if sortedResults[0][1] > sortedResults[1][1]:
-        print(str(sortedResults[0][0]))
+        return str(sortedResults[0][0])
     elif sortedResults[0][1] > 0:
         score = sortedResults[0][1]
         couldBe = []
@@ -53,14 +71,25 @@ def ReverseEngineer(methods):
             else:
                 break
         
+        string = ""
         for result in couldBe:
-            print(result[0] + ", ", end="")
-        print()
+            string += result[0] + ", "
+        return string
     else:
-        print("Unknown Class")
+        return "Unknown Class"
 
 os.system("cls")
 
+shouldPrintValidated = int(input("Should print validated classes (Yes 1, No 0, Default 1):  "))
+shouldPrintUnsure = int(input("Should print unsure classes (Yes 1, No 0, Default 1):  "))
+shouldPrintUnknown = int(input("Should print unknown classes (Yes 1, No 0, Default 1):  "))
+shouldPrintDontExist = int(input("Should print classes that dont exist anymore (Yes 1, No 0, Default 1):  "))
+
 for method in deobfuscatedData:
-    print(method + " -> ", end="")
-    ReverseEngineer(deobfuscatedData[method])
+    output = ReverseEngineer(deobfuscatedData[method])
+    if (method in output) and (shouldPrintValidated == 0): continue
+    if (", " in output) and (shouldPrintUnsure == 0): continue
+    if ("Unknown Class" in output) and (shouldPrintUnknown == 0): continue
+    if (method in dontExist) and (shouldPrintDontExist == 0): continue
+    print(method + " -> " + output)
+    print()
